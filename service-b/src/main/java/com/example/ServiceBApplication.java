@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @RestController
 public class ServiceBApplication {
+    //这是一个注释
     public static void main(String[] args) {
         SpringApplication.run(ServiceBApplication.class, args);
     }
